@@ -10,6 +10,7 @@ development. Feel free to use any of the videos/documentation found above!
 **1.​ Create a new GitHub repository​**
      This is where you’ll upload your code for this task and future personal practice.
      Make it public or private — up to you!
+     
 **2.​ Set up a new ROS2 workspace​**
      Use either your virtual machine or your local Linux setup (Ubuntu 22.04). Make
      sure the workspace builds and sources correctly.
@@ -35,38 +36,45 @@ started somewhere, and we're all learning together.
 
 *SOURCE: [SCRB Software Intro Task Guideline](SCRB_Software_Intro%20Task%20Guideline.pdf)*
 
-[![Space Concordia Robotics Logo](Robotics_logo_SCRB.webp)](https://spaceconcordia.ca/robotics)
+<a href="https://spaceconcordia.ca/robotics">
+  <img src="Robotics_logo_SCRB.webp" width="150" alt="Space Concordia Robotics Logo">
+</a>
+
 ---
 
 ## How to Launch the Publisher/Subscriber Nodes in C++
 
-1. Open a linux terminal, head towards the root workspace *IntroTask* and check for missing 																	dependencies by typing:
+1. Clone the repository into a workspace, you can name it *IntroTask*.
+
+2. Open a linux terminal, head towards the root workspace *IntroTask* and check for missing 																	dependencies by typing:
 	'rosdep install -i --from-path src --rosdistro humble -y'
-2. On the same terminal and same workspace 'IntroTask', build the new package by typing:
+3. On the same terminal and same workspace 'IntroTask', build the new package by typing:
 	'colcon build --packages-select cpp_task'
-3. Open 2 new terminals, both navigate into 'IntroTask' and for each new terminal, source the setup files by typing:
+4. Open 2 new terminals, both navigate into 'IntroTask' and for each new terminal, source the setup files by typing:
 	'. install/setup.bash' or 'source install/setup.bash'
-4. Run the talker node on the first new terminal by typing:
+5. Run the talker node on the first new terminal by typing:
 	'ros2 run cpp_task talker'
-5. Run the listener node on the second new terminal by typing:
+6. Run the listener node on the second new terminal by typing:
 	'ros2 run cpp_task listener'
-6. Voila! The Publisher and Subscriber have been implemented.
+7. Voila! The Publisher and Subscriber have been implemented.
 
 ---
 
 ## How to Launch the Publisher/Subscriber Nodes in Python 🐍
 
-1. Open a linux terminal, head towards the root workspace *IntroTask* and check for missing 																	dependencies by typing:
+1. Clone the repository into a workspace, you can name it *IntroTask*.
+
+2. Open a linux terminal, head towards the root workspace *IntroTask* and check for missing 																	dependencies by typing:
 	'rosdep install -i --from-path src --rosdistro humble -y'
-2. On the same terminal and same workspace 'IntroTask', build the new package by typing:
+3. On the same terminal and same workspace 'IntroTask', build the new package by typing:
 	'colcon build --packages-select py_task'
-3. Open 2 new terminals, both navigate into 'IntroTask' and for each new terminal, source the setup files by typing:
+4. Open 2 new terminals, both navigate into 'IntroTask' and for each new terminal, source the setup files by typing:
 	'. install/setup.bash' or 'source install/setup.bash'
-4. Run the talker node on the first new terminal by typing:
+5. Run the talker node on the first new terminal by typing:
 	'ros2 run py_task talker'
-5. Run the listener node on the second new terminal by typing:
+6. Run the listener node on the second new terminal by typing:
 	'ros2 run py_task listener'
-6. Voila! The Publisher and Subscriber have been implemented.
+7. Voila! The Publisher and Subscriber have been implemented.
 
 
 
