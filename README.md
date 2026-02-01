@@ -47,15 +47,15 @@ started somewhere, and we're all learning together.
 1. Clone the repository into a workspace, you can name it *IntroTask*.
 
 2. Open a linux terminal, head towards the root workspace *IntroTask* and check for missing 																	dependencies by typing:
-	'rosdep install -i --from-path src --rosdistro humble -y'
+	`rosdep install -i --from-path src --rosdistro humble -y`
 3. On the same terminal and same workspace 'IntroTask', build the new package by typing:
-	'colcon build --packages-select cpp_task'
+	`colcon build --packages-select cpp_task`
 4. Open 2 new terminals, both navigate into 'IntroTask' and for each new terminal, source the setup files by typing:
-	'. install/setup.bash' or 'source install/setup.bash'
+	`. install/setup.bash` or `source install/setup.bash`
 5. Run the talker node on the first new terminal by typing:
-	'ros2 run cpp_task talker'
+	`ros2 run cpp_task talker`
 6. Run the listener node on the second new terminal by typing:
-	'ros2 run cpp_task listener'
+	`ros2 run cpp_task listener`
 7. Voila! The Publisher and Subscriber have been implemented.
 
 ---
@@ -65,15 +65,15 @@ started somewhere, and we're all learning together.
 1. Clone the repository into a workspace, you can name it *IntroTask*.
 
 2. Open a linux terminal, head towards the root workspace *IntroTask* and check for missing 																	dependencies by typing:
-	'rosdep install -i --from-path src --rosdistro humble -y'
+	`rosdep install -i --from-path src --rosdistro humble -y`
 3. On the same terminal and same workspace 'IntroTask', build the new package by typing:
-	'colcon build --packages-select py_task'
+	`colcon build --packages-select py_task`
 4. Open 2 new terminals, both navigate into 'IntroTask' and for each new terminal, source the setup files by typing:
-	'. install/setup.bash' or 'source install/setup.bash'
+	`. install/setup.bash` or `source install/setup.bash`
 5. Run the talker node on the first new terminal by typing:
-	'ros2 run py_task talker'
+	`ros2 run py_task talker`
 6. Run the listener node on the second new terminal by typing:
-	'ros2 run py_task listener'
+	`ros2 run py_task listener`
 7. Voila! The Publisher and Subscriber have been implemented.
 
 
