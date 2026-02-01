@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/py_task/py_task.egg-info
+writing ../../build/py_task/py_task.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_task/py_task.egg-info/dependency_links.txt
+writing entry points to ../../build/py_task/py_task.egg-info/entry_points.txt
+writing requirements to ../../build/py_task/py_task.egg-info/requires.txt
+writing top-level names to ../../build/py_task/py_task.egg-info/top_level.txt
+writing manifest file '../../build/py_task/py_task.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_task/py_task.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_task/py_task.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task
+copying py_task/__init__.py -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task
+copying py_task/task_publisher.py -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task
+copying py_task/task_subscriber.py -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task
+running install
+running install_lib
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task
+copying /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task/__init__.py -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task
+copying /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task/task_publisher.py -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task
+copying /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/build/lib/py_task/task_subscriber.py -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task
+byte-compiling /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task/task_publisher.py to task_publisher.cpython-310.pyc
+byte-compiling /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task/task_subscriber.py to task_subscriber.cpython-310.pyc
+running install_data
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/share/ament_index
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/share/ament_index/resource_index
+creating /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/share/ament_index/resource_index/packages
+copying resource/py_task -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/share/ament_index/resource_index/packages
+copying package.xml -> /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/share/py_task
+running install_egg_info
+Copying ../../build/py_task/py_task.egg-info to /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/python3.10/site-packages/py_task-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/py_task
+Installing talker script to /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/py_task/lib/py_task
+writing list of installed files to '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/py_task/install.log'

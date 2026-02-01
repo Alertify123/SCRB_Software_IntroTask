@@ -1,0 +1,4 @@
+[console_scripts]
+listener = py_task.task_subscriber:main
+talker = py_task.task_publisher:main
+

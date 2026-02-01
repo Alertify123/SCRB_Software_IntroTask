@@ -1,0 +1,11 @@
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/uninstall.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/cpp_task_uninstall.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/talker.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/listener.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/test.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/edit_cache.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/rebuild_cache.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/list_install_components.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/install.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/install/local.dir
+/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task/CMakeFiles/install/strip.dir

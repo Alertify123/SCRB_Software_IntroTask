@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task -- -j12 -l12
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.087s] [100%] Built target talker
+[0.087s] [100%] Built target listener
+[0.102s] Invoked command in '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task -- -j12 -l12
+[0.116s] Invoking command in '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task
+[0.125s] -- Install configuration: ""
+[0.126s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/lib/cpp_task/talker
+[0.126s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/lib/cpp_task/listener
+[0.126s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/ament_index/resource_index/package_run_dependencies/cpp_task
+[0.126s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/ament_index/resource_index/parent_prefix_path/cpp_task
+[0.126s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/ament_prefix_path.sh
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/path.sh
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/path.dsv
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.bash
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.sh
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.zsh
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.dsv
+[0.127s] -- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/package.dsv
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/ament_index/resource_index/packages/cpp_task
+[0.127s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/cmake/cpp_taskConfig.cmake
+[0.128s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/cmake/cpp_taskConfig-version.cmake
+[0.128s] -- Up-to-date: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/package.xml
+[0.130s] Invoked command in '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task

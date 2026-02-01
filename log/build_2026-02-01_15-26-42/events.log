@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (cpp_task) JobQueued: {'identifier': 'cpp_task', 'dependencies': OrderedDict()}
+[0.000967] (cpp_task) JobStarted: {'identifier': 'cpp_task'}
+[0.009021] (cpp_task) JobProgress: {'identifier': 'cpp_task', 'progress': 'cmake'}
+[0.009850] (cpp_task) Command: {'cmd': ['/usr/bin/cmake', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/src/cpp_task', '-DCMAKE_INSTALL_PREFIX=/home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task'], 'cwd': '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chrisjan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chrisjan'), ('OLDPWD', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6939'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chrisjan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chrisjan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chrisjan-HP-Laptop:@/tmp/.ICE-unix/1933,unix/chrisjan-HP-Laptop:/tmp/.ICE-unix/1933'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/519ce4d3_40fe_4533_b90f_f10fdbb22f37'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63MTJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.028079] (cpp_task) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099605] (-) TimerEvent: {}
+[0.172933] (cpp_task) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199696] (-) TimerEvent: {}
+[0.204231] (cpp_task) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.206928] (cpp_task) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.213346] (cpp_task) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.223346] (cpp_task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.236577] (cpp_task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.271034] (cpp_task) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.272315] (cpp_task) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299803] (-) TimerEvent: {}
+[0.397025] (cpp_task) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399905] (-) TimerEvent: {}
+[0.453413] (cpp_task) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500064] (-) TimerEvent: {}
+[0.534333] (cpp_task) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.534735] (cpp_task) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.534855] (cpp_task) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.535110] (cpp_task) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.536221] (cpp_task) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.536353] (cpp_task) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.536619] (cpp_task) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.537470] (cpp_task) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.552748] (cpp_task) StdoutLine: {'line': b'-- Generating done\n'}
+[0.558043] (cpp_task) StdoutLine: {'line': b'-- Build files have been written to: /home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task\n'}
+[0.568596] (cpp_task) CommandEnded: {'returncode': 0}
+[0.569479] (cpp_task) JobProgress: {'identifier': 'cpp_task', 'progress': 'build'}
+[0.571032] (cpp_task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task', '--', '-j12', '-l12'], 'cwd': '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chrisjan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chrisjan'), ('OLDPWD', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6939'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chrisjan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chrisjan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chrisjan-HP-Laptop:@/tmp/.ICE-unix/1933,unix/chrisjan-HP-Laptop:/tmp/.ICE-unix/1933'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/519ce4d3_40fe_4533_b90f_f10fdbb22f37'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63MTJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.600211] (-) TimerEvent: {}
+[0.637735] (cpp_task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/task_publisher.cpp.o\x1b[0m\n'}
+[0.638009] (cpp_task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/task_subscriber.cpp.o\x1b[0m\n'}
+[0.700762] (-) TimerEvent: {}
+[0.801569] (-) TimerEvent: {}
+[0.901997] (-) TimerEvent: {}
+[1.002673] (-) TimerEvent: {}
+[1.103095] (-) TimerEvent: {}
+[1.203773] (-) TimerEvent: {}
+[1.304236] (-) TimerEvent: {}
+[1.404677] (-) TimerEvent: {}
+[1.505109] (-) TimerEvent: {}
+[1.605567] (-) TimerEvent: {}
+[1.706354] (-) TimerEvent: {}
+[1.806798] (-) TimerEvent: {}
+[1.907232] (-) TimerEvent: {}
+[2.007730] (-) TimerEvent: {}
+[2.108167] (-) TimerEvent: {}
+[2.208829] (-) TimerEvent: {}
+[2.309171] (-) TimerEvent: {}
+[2.409521] (-) TimerEvent: {}
+[2.509865] (-) TimerEvent: {}
+[2.610199] (-) TimerEvent: {}
+[2.710517] (-) TimerEvent: {}
+[2.810865] (-) TimerEvent: {}
+[2.911220] (-) TimerEvent: {}
+[3.011584] (-) TimerEvent: {}
+[3.111917] (-) TimerEvent: {}
+[3.212256] (-) TimerEvent: {}
+[3.312654] (-) TimerEvent: {}
+[3.412989] (-) TimerEvent: {}
+[3.513324] (-) TimerEvent: {}
+[3.613731] (-) TimerEvent: {}
+[3.714061] (-) TimerEvent: {}
+[3.814399] (-) TimerEvent: {}
+[3.914743] (-) TimerEvent: {}
+[4.015072] (-) TimerEvent: {}
+[4.115421] (-) TimerEvent: {}
+[4.215754] (-) TimerEvent: {}
+[4.316077] (-) TimerEvent: {}
+[4.416391] (-) TimerEvent: {}
+[4.516725] (-) TimerEvent: {}
+[4.617279] (-) TimerEvent: {}
+[4.717615] (-) TimerEvent: {}
+[4.817936] (-) TimerEvent: {}
+[4.918255] (-) TimerEvent: {}
+[5.018583] (-) TimerEvent: {}
+[5.118901] (-) TimerEvent: {}
+[5.219231] (-) TimerEvent: {}
+[5.319580] (-) TimerEvent: {}
+[5.419911] (-) TimerEvent: {}
+[5.464168] (cpp_task) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.520038] (-) TimerEvent: {}
+[5.620378] (-) TimerEvent: {}
+[5.663770] (cpp_task) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.720488] (-) TimerEvent: {}
+[5.820829] (-) TimerEvent: {}
+[5.921172] (-) TimerEvent: {}
+[6.021513] (-) TimerEvent: {}
+[6.121851] (-) TimerEvent: {}
+[6.222189] (-) TimerEvent: {}
+[6.322644] (-) TimerEvent: {}
+[6.422988] (-) TimerEvent: {}
+[6.523308] (-) TimerEvent: {}
+[6.623655] (-) TimerEvent: {}
+[6.723982] (-) TimerEvent: {}
+[6.824379] (-) TimerEvent: {}
+[6.924781] (-) TimerEvent: {}
+[7.025100] (-) TimerEvent: {}
+[7.125420] (-) TimerEvent: {}
+[7.226152] (-) TimerEvent: {}
+[7.326493] (-) TimerEvent: {}
+[7.426808] (-) TimerEvent: {}
+[7.527126] (-) TimerEvent: {}
+[7.627464] (-) TimerEvent: {}
+[7.727784] (-) TimerEvent: {}
+[7.828100] (-) TimerEvent: {}
+[7.928416] (-) TimerEvent: {}
+[8.028797] (-) TimerEvent: {}
+[8.129117] (-) TimerEvent: {}
+[8.229453] (-) TimerEvent: {}
+[8.329773] (-) TimerEvent: {}
+[8.430126] (-) TimerEvent: {}
+[8.530518] (-) TimerEvent: {}
+[8.630832] (-) TimerEvent: {}
+[8.731148] (-) TimerEvent: {}
+[8.831475] (-) TimerEvent: {}
+[8.931803] (-) TimerEvent: {}
+[9.032123] (-) TimerEvent: {}
+[9.132475] (-) TimerEvent: {}
+[9.232811] (-) TimerEvent: {}
+[9.333148] (-) TimerEvent: {}
+[9.433498] (-) TimerEvent: {}
+[9.442550] (cpp_task) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[9.533625] (-) TimerEvent: {}
+[9.633954] (-) TimerEvent: {}
+[9.734285] (-) TimerEvent: {}
+[9.794226] (cpp_task) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.808132] (cpp_task) CommandEnded: {'returncode': 0}
+[9.808897] (cpp_task) JobProgress: {'identifier': 'cpp_task', 'progress': 'install'}
+[9.819212] (cpp_task) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task'], 'cwd': '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'chrisjan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chrisjan'), ('OLDPWD', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6939'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chrisjan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chrisjan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chrisjan-HP-Laptop:@/tmp/.ICE-unix/1933,unix/chrisjan-HP-Laptop:/tmp/.ICE-unix/1933'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/519ce4d3_40fe_4533_b90f_f10fdbb22f37'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63MTJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chrisjan/Documents/SpaceConcordia/IntroTask/build/cpp_task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.828405] (cpp_task) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.828648] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/lib/cpp_task/talker\n'}
+[9.830247] (cpp_task) StdoutLine: {'line': b'-- Set runtime path of "/home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/lib/cpp_task/talker" to ""\n'}
+[9.830423] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/lib/cpp_task/listener\n'}
+[9.834368] (-) TimerEvent: {}
+[9.834631] (cpp_task) StdoutLine: {'line': b'-- Set runtime path of "/home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/lib/cpp_task/listener" to ""\n'}
+[9.834885] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/ament_index/resource_index/package_run_dependencies/cpp_task\n'}
+[9.835193] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/ament_index/resource_index/parent_prefix_path/cpp_task\n'}
+[9.835450] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/ament_prefix_path.sh\n'}
+[9.835705] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/ament_prefix_path.dsv\n'}
+[9.835876] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/path.sh\n'}
+[9.836111] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/environment/path.dsv\n'}
+[9.836302] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.bash\n'}
+[9.836538] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.sh\n'}
+[9.836723] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.zsh\n'}
+[9.836907] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/local_setup.dsv\n'}
+[9.837081] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/package.dsv\n'}
+[9.837338] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/ament_index/resource_index/packages/cpp_task\n'}
+[9.837633] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/cmake/cpp_taskConfig.cmake\n'}
+[9.837817] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/cmake/cpp_taskConfig-version.cmake\n'}
+[9.837950] (cpp_task) StdoutLine: {'line': b'-- Installing: /home/chrisjan/Documents/SpaceConcordia/IntroTask/install/cpp_task/share/cpp_task/package.xml\n'}
+[9.840372] (cpp_task) CommandEnded: {'returncode': 0}
+[9.856562] (cpp_task) JobEnded: {'identifier': 'cpp_task', 'rc': 0}
+[9.857326] (-) EventReactorShutdown: {}
