@@ -1,11 +1,10 @@
 # SCRB_Software_IntroTask
-# Your First Task: GitHub + ROS2 Packages
 
 To help you get hands-on and reinforce the basics, we’d like you to complete this
 introductory task. It will give you practice with ROS2, GitHub, and both C++ and Python
 development. Feel free to use any of the videos/documentation found above!
 
-## Here’s what you need to do:
+### Here’s what you need to do:
 
 **1.​ Create a new GitHub repository​**
      This is where you’ll upload your code for this task and future personal practice.
@@ -42,7 +41,7 @@ started somewhere, and we're all learning together.
 
 ---
 
-## How to Launch the Publisher/Subscriber Nodes in C++
+### How to Launch the Publisher/Subscriber Nodes in C++
 
 1. Clone the repository into a workspace, you can name it *IntroTask*.
 
@@ -60,7 +59,7 @@ started somewhere, and we're all learning together.
 
 ---
 
-## How to Launch the Publisher/Subscriber Nodes in Python 🐍
+### How to Launch the Publisher/Subscriber Nodes in Python 🐍
 
 1. Clone the repository into a workspace, you can name it *IntroTask*.
 
